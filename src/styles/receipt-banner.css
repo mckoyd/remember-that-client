@@ -1,0 +1,9 @@
+.receipt-banner img {
+  object-fit: cover;
+  width: 100vw;
+  height: 40vh;
+}
+
+.receipt-banner {
+  object-fit: cover;
+}

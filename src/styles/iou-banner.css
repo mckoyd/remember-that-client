@@ -1,0 +1,9 @@
+.iou-banner {
+  background-color: #0D130F;
+}
+
+.iou-banner img {
+  object-fit: cover;
+  width: 100vw;
+  height: 50vh;
+}

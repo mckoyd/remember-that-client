@@ -1,0 +1,17 @@
+.landing-banner {
+  background-color: #3498db;
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  cursor: default;
+  padding: 10em 4em 9em 4em;
+}
+
+.landing-banner .inner {
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.landing-banner hgroup {
+  font-size: 2.75em;
+  line-height: 1.45;
+  margin: 0 0 0.75em 0;
+}

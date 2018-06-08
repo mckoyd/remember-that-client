@@ -1,0 +1,61 @@
+.iou-table {
+  height: 25vh;
+  overflow-y: auto;
+  background-color: #F1FAEE;
+  padding: 1em;
+}
+
+table {
+  width: 100%;
+  color: #199e7f;
+}
+
+.iou-header th{
+  padding: 2px;
+  font-size: 1.2em;
+  width: 50%;
+}
+
+.iou-header {
+  border-bottom: 1px dashed black;
+  /* width: 100%;   */
+}
+
+td:first-child {
+  display: flex;
+  flex-direction: column;
+}
+
+table tr {
+  margin-left: 10px;
+}
+
+table td {
+  padding: 5px;
+}
+
+.iou-details-btn, .delete-btn {
+  text-align: right;
+  color: #F1FAEE;
+  border-radius: 100px;
+  margin: 2px 10px;
+  padding: 0.5em 1em;
+  font-size: 0.7em;
+}
+
+.iou-details-btn {
+  background-color: #199e7f;
+  margin-bottom: 4px;
+}
+
+.delete-btn {
+  background-color: #c41d1d;
+  margin-top: 6px;
+}
+
+@media screen and (min-width: 640px) {
+  .iou-table {
+    width: 50%;
+  }
+}
+

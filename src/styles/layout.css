@@ -1,0 +1,9 @@
+@media screen and (min-width: 640px) {
+  .side-by-side {
+    display: flex;
+    justify-content: space-between;
+  }
+  .alt-row {
+    flex-direction: row-reverse;
+  }
+}

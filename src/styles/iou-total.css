@@ -1,0 +1,33 @@
+.iou-total {
+  background-color: #19b491; 
+  background-size: cover;
+  color: #F1FAEE;
+}
+
+.iou-total h2 {
+  font-size: 35px;
+  text-align: center;
+  padding: 0.5em 0.5em;
+  line-height: 1.2;
+}
+
+.iou-total button{
+  color: #F1FAEE;
+  border: 1px solid #199e7f;
+  background-color: #13846a;
+  font-size: 0.6em;
+  padding: 0.2em 0.5em;
+  border-radius: 100px;
+}
+
+@media screen and (min-width: 640px) {
+  .iou-total {
+    width: 50%;
+  }
+  .iou-total h2 {
+    font-size: 35px;
+    padding: 2em 1em;
+    line-height: 1.2;
+    height: 50vh;
+  }
+}

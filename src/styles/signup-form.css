@@ -35,6 +35,7 @@
 #signup-form fieldset {
   display: flex;
   text-align: center;
+  flex-direction: column;
   width: 100%;
   padding: 10px;
   background: rgb(17, 99, 139, 0.6); 

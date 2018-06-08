@@ -17,7 +17,7 @@ export class UOMeAddForm extends React.Component {
         className={`modal ${this.props.modalFormView ? 'visible': ''}`}>
         <div className="modal-content">
           <button className="btn" 
-            id="home-btn" 
+            id="uome-home-btn" 
             onClick={() => this.props.dispatch(toggleUomeAddForm())}>go back
           </button>
           <form onSubmit={this.props.handleSubmit(values => {
@@ -26,7 +26,7 @@ export class UOMeAddForm extends React.Component {
           })}>
             <fieldset>
               <legend>ADD YOUR UOME HERE</legend>
-              <label htmlFor="name">Who Owes You</label>
+              <label htmlFor="uomeName">Who Owes You</label>
               <Field type="text" 
                 component="input"
                 name="uomeName"
@@ -35,7 +35,7 @@ export class UOMeAddForm extends React.Component {
                 placeholder="enter a name" 
                 required 
               />
-              <label htmlFor="amount">What Do They Owe</label>
+              <label htmlFor="uomeAmount">What Do They Owe</label>
               <Field type="number" 
                 name="uomeAmount"
                 component="input" 
@@ -45,7 +45,7 @@ export class UOMeAddForm extends React.Component {
                 required />
               <button type="submit" 
                 name="add-btn" 
-                id="add-btn">Add UOME
+                id="uome-add-btn">Add UOME
               </button>
             </fieldset>
           </form>

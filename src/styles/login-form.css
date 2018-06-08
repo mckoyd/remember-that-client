@@ -13,7 +13,7 @@
 }
 
 #login-form .modal-content {
-  background-color: #199e7f;
+  background-color: rgb(17, 99, 139);
   position: relative;
   padding: 0;
   outline: 0;
@@ -35,9 +35,10 @@
 #login-form fieldset {
   display: flex;
   text-align: center;
+  flex-direction: column;
   width: 100%;
   padding: 10px;
-  background: rgb(25, 158, 127, 0.6); 
+  background: rgb(17, 99, 139, 0.6); 
 }
 
 fieldset legend {
@@ -58,7 +59,7 @@ fieldset legend {
   font-size: 18px;
 }
 
-#login-form #home-btn {
+#login-form #login-home-btn {
   line-height: 1;
   width: 30%;
   font-size: 15px;
@@ -67,14 +68,14 @@ fieldset legend {
   font-style: none;
   text-decoration: none;
   text-align: center;
-  background-color: #13846a;
+  background-color: #1472a0;
   border-radius: 100px;
   margin-left: 10px;
   margin-top: 10px;
   padding: 5px;
 }
 
-#login-form #add-btn{
+#login-form #login-btn{
   line-height: 1;
   width: 35%;
   font-size: 15px;
@@ -83,7 +84,7 @@ fieldset legend {
   font-style: none;
   text-decoration: none;
   text-align: center;
-  background-color: #13846a;
+  background-color: #1472a0;
   border-radius: 100px;
   margin: 10px auto;
   padding: 5px;

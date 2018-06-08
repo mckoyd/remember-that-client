@@ -5,8 +5,8 @@ import { toggleLoginModal, toggleSignupModal } from '../actions';
 export const LandingRTopNav = props => {
   return(
     <div className="right-nav">
-      <a href="#login" onClick={() => props.dispatch(toggleLoginModal())}>login</a>
-      <a href="#signup" onClick={() => props.dispatch(toggleSignupModal())}>signup</a>
+      <a href="#login-form" onClick={() => props.dispatch(toggleLoginModal())}>login</a>
+      <a href="#signup-form" onClick={() => props.dispatch(toggleSignupModal())}>signup</a>
     </div>
   );
 };

@@ -13,7 +13,7 @@
 }
 
 #uome-add-form .modal-content {
-  background-color: #2d8dd6;
+  background-color: rgb(17, 99, 139);
   position: relative;
   padding: 0;
   outline: 0;
@@ -36,7 +36,7 @@
   text-align: center;
   width: 100%;
   padding: 10px;
-  background: rgb(45, 141, 214, 0.6); 
+  background: rgb(17, 99, 139, 0.6); 
 }
 
 fieldset legend {
@@ -57,7 +57,7 @@ fieldset legend {
   font-size: 18px;
 }
 
-#uome-add-form #home-btn {
+#uome-add-form #uome-home-btn {
   line-height: 1;
   width: 30%;
   font-size: 15px;
@@ -73,7 +73,7 @@ fieldset legend {
   padding: 5px;
 }
 
-#uome-add-form #add-btn{
+#uome-add-form #uome-add-btn{
   line-height: 1;
   width: 35%;
   font-size: 15px;

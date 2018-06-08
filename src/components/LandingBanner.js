@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/landing-banner.css';
 
 export const LandingBanner = () => (
-  <section className='landing-banner'>
+  <section className='landing-banner' id='home'>
     <div className="inner">
       <hgroup>
         <h1>Remember THAT!</h1>

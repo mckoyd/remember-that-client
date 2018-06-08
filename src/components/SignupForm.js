@@ -47,11 +47,11 @@ export class SignupForm extends React.Component{
               <label htmlFor='emailAddress'>Email Address?</label>
               <Field type='text' component='input' name='emailAddress'
                 id='emailAddress' className='inputBox' placeholder='enter your email address'/>
-              <label htmlFor='username'>Ok...Pick A Username</label>
+              <label htmlFor='signup-username'>Ok...Pick A Username</label>
               <Field type='text' component='input' name='username'
                 id='signup-username' className='inputBox' placeholder='enter a username'
                 validate={[required, nonEmpty, isTrimmed]}/>
-              <label htmlFor='password'>Now Pick A Strong Password</label>
+              <label htmlFor='signup-password'>Now Pick A Strong Password</label>
               <Field type='password' component='input' name='password'
                 id='signup-password' className='inputBox' placeholder='enter a password'
                 validate={[required, passwordLength, isTrimmed]}/>

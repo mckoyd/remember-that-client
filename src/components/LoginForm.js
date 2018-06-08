@@ -18,7 +18,7 @@ export class LoginForm extends React.Component{
         className={`modal ${this.props.loginModalView ? 'visible': ''}`}>
         <div className="modal-content">
           <button className="btn" 
-            id="home-btn" 
+            id="login-home-btn" 
             onClick={() => this.props.dispatch(toggleLoginModal())}>go back
           </button>
           <form onSubmit={this.props.handleSubmit(values => {
@@ -37,7 +37,7 @@ export class LoginForm extends React.Component{
                 placeholder="enter your username" 
                 validate={[required, nonEmpty]}
               />
-              <label htmlFor="password">And What Is the Password?</label>
+              <label htmlFor="login-password">And What Is the Password?</label>
               <Field type="password" 
                 name="password"
                 component="input" 

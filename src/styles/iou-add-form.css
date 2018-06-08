@@ -13,7 +13,7 @@
 }
 
 #iou-add-form .modal-content {
-  background-color: #199e7f;
+  background-color: rgb(17, 117, 94);
   position: relative;
   padding: 0;
   outline: 0;
@@ -37,7 +37,7 @@
   text-align: center;
   width: 100%;
   padding: 10px;
-  background: rgb(25, 158, 127, 0.6); 
+  background: rgba(17, 117, 94, 0.6); 
 }
 
 fieldset legend {
@@ -58,7 +58,7 @@ fieldset legend {
   font-size: 18px;
 }
 
-#iou-add-form #home-btn {
+#iou-add-form #iou-home-btn {
   line-height: 1;
   width: 30%;
   font-size: 15px;
@@ -67,14 +67,14 @@ fieldset legend {
   font-style: none;
   text-decoration: none;
   text-align: center;
-  background-color: #13846a;
+  background-color: #0e5f4c;
   border-radius: 100px;
   margin-left: 10px;
   margin-top: 10px;
   padding: 5px;
 }
 
-#iou-add-form #add-btn{
+#iou-add-form #iou-add-btn{
   line-height: 1;
   width: 35%;
   font-size: 15px;
@@ -83,7 +83,7 @@ fieldset legend {
   font-style: none;
   text-decoration: none;
   text-align: center;
-  background-color: #13846a;
+  background-color: #0e5f4c;
   border-radius: 100px;
   margin: 10px auto;
   padding: 5px;

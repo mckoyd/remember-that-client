@@ -15,7 +15,7 @@ export class IOUAddForm extends React.Component {
         className={`modal ${this.props.modalFormView ? 'visible': ''}`}>
         <div className="modal-content">
           <button className="btn" 
-            id="home-btn" 
+            id="iou-home-btn" 
             onClick={() => this.props.dispatch(toggleIouAddForm())}>go back
           </button>
           <form onSubmit={this.props.handleSubmit(values => {
@@ -43,7 +43,7 @@ export class IOUAddForm extends React.Component {
                 required />
               <button type="submit" 
                 name="add-btn" 
-                id="add-btn">Add IOU
+                id="iou-add-btn">Add IOU
               </button>
             </fieldset>
           </form>

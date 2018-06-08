@@ -1,5 +1,5 @@
 .landing-section {
-  background-color: #fff;
+  background-color: #F1FAEE;
   color: #444;
   display: flex;
   flex-direction: column;
@@ -20,7 +20,7 @@ article .content {
 
 .content header h2 {
   font-size: 2.35em;
-  color: #1abc9c;
+  color: #10876f;
   font-weight: 700;
   line-height: 1.25;
   margin: 0 0 0.5em 0;
